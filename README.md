@@ -1,0 +1,1 @@
+Generative KI wurde unterstützend bei der Strukturierung der Analyse, der Textformulierung sowie bei der Entwicklung von Code-Skeletten eingesetzt. Alle Ergebnisse wurden von den Autor*innen überprüft und eigenständig interpretiert.

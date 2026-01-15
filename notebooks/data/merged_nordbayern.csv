@@ -1,0 +1,34 @@
+AGS,Raumeinheit,EBENE_NAME,einwohnerdichte,ober_pct,mittel_pct,zentral_score,kassensitze,kass_100k,versorgungsgrad
+09471,Bamberg,KR Bamberg,126.75,0.0,9.65,9.65,60.2,26.27,139.31
+09472,Bayreuth,KR Bayreuth,80.96,0.0,26.14,26.14,40.55,22.34,125.43
+09473,Coburg,KR Coburg,143.15,0.0,32.08,32.08,27.0,20.87,112.8
+09474,Forchheim,LK Forchheim,180.89,28.35,5.76,62.46,24.5,20.91,127.0
+09475,Hof,KR Hof,103.84,0.0,37.42,37.42,28.5,19.3,108.28
+09476,Kronach,LK Kronach,99.79,0.0,30.41,30.41,13.5,20.16,107.92
+09477,Kulmbach,LK Kulmbach,108.99,36.71,4.62,78.04,15.25,21.19,117.7
+09478,Lichtenfels,LK Lichtenfels,130.24,0.0,71.24,71.24,18.25,27.02,145.24
+09479,Wunsiedel i.Fichtelgebirge,LK Wunsiedel i. Fichtelgeb.,117.02,57.62,0.0,115.24,13.5,18.76,107.23
+09561,"Ansbach, Stadt",KR Ansbach,397.36,100.0,0.0,200.0,45.1,19.02,108.59
+09562,Erlangen,SK Erlangen,1498.36,100.0,0.0,200.0,53.0,44.99,139.99
+09563,"Fürth, Stadt",SK Fürth,2079.12,100.0,0.0,200.0,50.2,38.02,187.04
+09564,Nürnberg,SK Nürnberg,2824.53,100.0,0.0,200.0,256.9,48.83,144.39
+09565,Schwabach,KR Schwabach / Roth,1004.75,100.0,0.0,200.0,32.5,18.87,111.99
+09571,Ansbach,KR Ansbach,95.03,0.0,32.1,32.1,45.1,19.02,108.59
+09572,Erlangen-Höchstadt,LK Erlangen-Höchstadt,245.47,0.0,27.53,27.53,26.0,17.94,112.82
+09573,Fürth,LK Fürth,382.57,0.0,49.68,49.68,26.5,22.12,114.0
+09574,Nürnberger Land,LK Nürnberger Land,211.62,0.0,44.88,44.88,34.0,17.75,117.1
+09575,Neustadt a.d.Aisch-Bad Windsheim,LK Neustadt a.d.Aisch-Bad Windsheim,79.67,0.0,31.75,31.75,20.0,19.29,113.01
+09576,Roth,KR Schwabach / Roth,143.48,0.0,43.17,43.17,32.5,18.87,111.99
+09577,Weißenburg-Gunzenhausen,LK Weißenburg-Gunzenhausen,97.52,0.0,50.85,50.85,19.0,18.8,110.9
+09661,"Aschaffenburg, Stadt",KR Aschaffenburg,1161.79,100.0,0.0,200.0,53.0,21.77,110.4
+09662,"Schweinfurt, Stadt",KR Schweinfurt,1510.87,100.0,0.0,200.0,34.25,19.95,113.3
+09663,"Würzburg, Stadt",SK Würzburg,1504.1,100.0,0.0,200.0,85.4,66.59,199.96
+09671,Aschaffenburg,KR Aschaffenburg,244.46,0.0,30.37,30.37,53.0,21.77,110.4
+09672,Bad Kissingen,LK Bad Kissingen,90.99,22.36,16.7,61.42,23.0,21.93,129.15
+09673,Rhön-Grabfeld,LK Rhön-Grabfeld,77.74,19.24,14.51,52.989999999999995,16.0,18.63,112.38
+09674,Haßberge,LK Haßberge,87.51,0.0,25.01,25.01,17.0,19.91,109.75
+09675,Kitzingen,LK Kitzingen,133.3,0.0,34.37,34.37,17.5,18.65,110.78
+09676,Miltenberg,LK Miltenberg,177.76,0.0,37.46,37.46,24.5,18.74,110.63
+09677,Main-Spessart,LK Main-Spessart,95.23,0.0,41.06,41.06,22.7,17.78,109.3
+09678,Schweinfurt,KR Schweinfurt,135.97,0.0,5.92,5.92,34.25,19.95,113.3
+09679,Würzburg,LK Würzburg,166.14,0.0,6.99,6.99,49.55,27.27,187.59
