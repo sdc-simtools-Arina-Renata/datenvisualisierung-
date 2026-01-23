@@ -33,7 +33,7 @@ Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → 
 
 ------------------------------------------------------------------------------------------------
 
-## Methodischer Workflow (Kurz)
+## Methodischer Workflow
 
 1. **Rohdaten importieren** (INKAR, KVB Versorgungsgrad, Wartezeiten)
 2. **Harmonisierung** auf Kreisebene & Join über **AGS**
