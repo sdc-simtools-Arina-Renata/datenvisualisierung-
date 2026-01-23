@@ -64,29 +64,50 @@ Besonders relevant sind Regionen, die in der Versorgungsgradkarte „grün“ (�
 ## Repository-Struktur 
 
 ├── data/
+
 │   ├── vg250_01-01.utm32s.shape.ebenen/
+
 │   │   ├── dokumentation/
+
 │   │   └── vg250_ebenen_0101/
+
 │   ├── aktualitaet.txt
+
 │   ├── 20251215.csv
+
 │   ├── InkarDaten.csv
+
 │   ├── KBV_Daten.csv
+
 │   ├── Psychotherapeuten.csv
+
 │   ├── Tabelle Prog. Bevölkerung.csv
+
 │   ├── bayern_landkreise.geo.json
+
 │   ├── gemeinden_simplify20.geojson
+
 │   ├── inkar_load.ipynb
+
 │   └── merged_nordbayern.csv
+
 │
 ├── figures/
+
 │   ├── einwohnerdichte.png
+
 │   ├── versorgungsgrad.png
+
 │   └── wartezeiten.png
+
 │
 ├── notebooks/
+
 │   └── Visualisierungen1.ipynb
+
 │
 ├── .gitignore
+
 └── README.md
 
 
