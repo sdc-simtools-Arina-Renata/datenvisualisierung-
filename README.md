@@ -1,4 +1,4 @@
-# Überversorgung auf dem Papier – Mangel in der Realität  
+# Überversorgung vs. Mangel in der Realität  
 ## Eine datenbasierte Analyse der psychotherapeutischen Versorgung in Nordbayern
 
 Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → Aufbereitung → Kartenvisualisierungen), die den Widerspruch zwischen **offiziell ausgewiesenem Versorgungsgrad** (Bedarfsplanung) und **realem Zugang** (Wartezeiten) in der psychotherapeutischen Versorgung für **Nordbayern** sichtbar macht.
