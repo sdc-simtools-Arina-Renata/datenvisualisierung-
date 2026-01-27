@@ -27,7 +27,7 @@ Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → 
 
 ## Untersuchungsraum & räumliche Ebene
 
-- **Nordbayern** (Oberfranken, Mittelfranken, Unterfranken)
+- **Nordbayern** (Oberfranken, Mittelfranken, Unterfranken, Oberpfalz)
 - **Räumliche Ebene:** Landkreise und kreisfreie Städte  
 - **Join-Key:** Kreisschlüssel / AGS (amtlicher Gemeindeschlüssel)
 
@@ -42,7 +42,7 @@ Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → 
 4. **Klassifizierung für Karten**
    - Bevölkerungsdichte: quantilbasiert
    - Versorgungsgrad: KVB-Schwellen (<90 / 90–110 / >110)
-   - Wartezeiten: Klassen in Tagen (z. B. <30, 30–60, 60–100, >100)
+   - Wartezeiten: Klassen in Tagen (Median) (z. B. <30, 30–60, 60–100, >100)
 5. **Erstellung von Choroplethen-Karten** mit identischer Geometrie
 6. **Vergleich** der Karten als Story-Sequenz:
    - Setup (Nachfrage): Bevölkerungsdichte
@@ -53,11 +53,11 @@ Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → 
 
 ## Ergebnisse / Visualisierungen
 
-- **Karte 1:** Bevölkerungsdichte – „Wo sind die Menschen?“ (Blau)
-- **Karte 2:** Versorgungsgrad – „Die offizielle Bewertung“ (Gelb/Grün)
-- **Karte 3:** Wartezeiten – „Die Realität des Zugangs“ (Rot)
+- **Karte 1:** Bevölkerungsdichte – „Wo sind die Menschen?“ (Gelb/Rot)
+- **Karte 2:** Versorgungsgrad – „Die offizielle Bewertung“ (Blau)
+- **Karte 3:** Wartezeiten – „Die Realität des Zugangs“ (Orange/Dunkelrot)
 
-Besonders relevant sind Regionen, die in der Versorgungsgradkarte „grün“ (Überversorgung) erscheinen, aber in der Wartezeitkarte „rot“ (lange Wartezeiten).
+Besonders relevant sind Regionen, die in der Versorgungsgradkarte „blau“ (Überversorgung) erscheinen, aber in der Wartezeitkarte „rot“ (lange Wartezeiten).
 
 ------------------------------------------------------------------------------------------------
 
