@@ -61,7 +61,7 @@ Die Daten lagen im CSV-Format vor und beziehen sich auf die Verwaltungsebene der
 ---
 
 ### 3.4 Wartezeiten- und Versorgungsdaten (KBV)
-Die versorgungsrelevanten Daten wurden aus den Veröffentlichungen und Statistiken der Kassenärztlichen Vereinigung Bayerns (KVB) bezogen. Dieser Datensatz ist zentral für die Untersuchung, da er die offizielle administrative Sicht der Realität des Versorgungsalltags gegenüberstellt.
+Die versorgungsrelevanten Daten wurden aus den Veröffentlichungen und Statistiken der Kassenärztlichen Bundesvereinigung (KBV) bezogen. Dieser Datensatz ist zentral für die Untersuchung, da er die offizielle administrative Sicht der Realität des Versorgungsalltags gegenüberstellt.
 Zentrale Komponenten des Datensatzes:
 
 - Der Versorgungsgrad: Diese Kennzahl gibt das Verhältnis zwischen der Anzahl der niedergelassenen Psychotherapeut:innen mit Kassenzulassung und der gesetzlich festgelegten Einwohnerzahl pro Sitz an. Er bildet die rechtliche Grundlage für die Bedarfsplanung und Zulassungsbeschränkungen.
@@ -73,7 +73,7 @@ Zentrale Komponenten des Datensatzes:
 ### 3.5 Zeitliche Einordnung und Belastbarkeit der Daten
 Bei der Zusammenführung der Datensätze ergeben sich unterschiedliche Zeitstände (2021 bis 2025). Diese methodische Entscheidung wurde bewusst getroffen und lässt sich wie folgt begründen:
 
-- Versorgungsgrad (2025): Hier wurden die aktuellsten verfügbaren Daten der KVB verwendet. Da diese Kennzahl die rechtliche Grundlage für die Bedarfsplanung bildet, ist ihre Aktualität entscheidend für die Analyse der gegenwärtigen Systemlogik.
+- Versorgungsgrad (2025): Hier wurden die aktuellsten verfügbaren Daten der KBV verwendet. Da diese Kennzahl die rechtliche Grundlage für die Bedarfsplanung bildet, ist ihre Aktualität entscheidend für die Analyse der gegenwärtigen Systemlogik.
 
 - Bevölkerungsdichte (2023): Dies ist der aktuellste verfügbare Stand aus dem INKAR-Datensatz zum Zeitpunkt der Analyse. Da sich die Bevölkerungsstruktur und -dichte auf Kreisebene über kurze Zeiträume (2–3 Jahre) nur marginal verändern, bleibt die Aussagekraft als Indikator für die regionale Nachfrage voll erhalten.
 
@@ -98,7 +98,7 @@ Relevante Merkmale:
 ---
 
 ### 4.2 Versorgungsgrad Psychotherapie
-Der Versorgungsgrad ist eine offizielle Kennzahl der Kassenärztlichen Vereinigung Bayern (KVB). Er beschreibt das Verhältnis zwischen vorhandenen Kassensitzen und dem rechnerisch ermittelten Bedarf. Die Berechnungslogik basiert auf bundesweit einheitlichen Richtwerten der Bedarfsplanung.
+Der Versorgungsgrad ist eine offizielle Kennzahl der Kassenärztlichen Bundesvereinigung (KBV). Er beschreibt das Verhältnis zwischen vorhandenen Kassensitzen und dem rechnerisch ermittelten Bedarf. Die Berechnungslogik basiert auf bundesweit einheitlichen Richtwerten der Bedarfsplanung.
 
 Die Klassifizierung erfolgt nach festgelegten Schwellenwerten:
 
@@ -111,7 +111,7 @@ Diese Kennzahl bildet die Grundlage für politische und administrative Entscheid
 ---
 
 ### 4.3 Wartezeiten auf einen Psychotherapieplatz
-Die Wartezeiten auf einen Therapieplatz wurden aus öffentlich zugänglichen Quellen der KVB sowie ergänzender Recherche zusammengetragen und in einer CSV-Datei konsolidiert. Sie geben an, wie viele Tage Patient:innen durchschnittlich auf den Beginn einer psychotherapeutischen Behandlung warten müssen. Die Wartezeiten stellen kein vollständiges Abbild aller individuellen Erfahrungen dar, dienen jedoch als aggregierter Indikator für den realen Zugang zur Versorgung.
+Die Wartezeiten auf einen Therapieplatz wurden aus öffentlich zugänglichen Quellen der KBV sowie ergänzender Recherche zusammengetragen und in einer CSV-Datei konsolidiert. Sie geben an, wie viele Tage Patient:innen durchschnittlich auf den Beginn einer psychotherapeutischen Behandlung warten müssen. Die Wartezeiten stellen kein vollständiges Abbild aller individuellen Erfahrungen dar, dienen jedoch als aggregierter Indikator für den realen Zugang zur Versorgung.
 
 Merkmale:
 - Maßeinheit: Tage
@@ -128,7 +128,7 @@ Alle Datensätze wurden auf die gleiche räumliche Ebene (Landkreise und kreisfr
 Methodische Qualitätssicherung:
 - Vollständigkeit der Daten: Die Analyse konnte auf Basis lückenloser Datensätze für den gesamten Untersuchungsraum Nordbayern durchgeführt werden. Da keine fehlenden Werte auftraten, ist eine flächendeckende und repräsentative Darstellung der Versorgungslage gewährleistet.
 
-- Datenintegrität: Durch die Verwendung vollständiger Primärdaten der KVB und des INKAR-Datensatzes waren weder Schätzungen noch statistische Interpolationen (Imputationen) erforderlich. Dies garantiert eine unverfälschte Abbildung der Realität.
+- Datenintegrität: Durch die Verwendung vollständiger Primärdaten der KBV und des INKAR-Datensatzes waren weder Schätzungen noch statistische Interpolationen (Imputationen) erforderlich. Dies garantiert eine unverfälschte Abbildung der Realität.
 
 
 ---
@@ -186,7 +186,7 @@ Die Wahl der Kartenform ist damit keine ästhetische Entscheidung, sondern eine 
 ## 7. Technische Umsetzung
 
 ### 7.1 Software und Datenverarbeitung
-- Datenaufbereitung & Merging: Die Harmonisierung und Zusammenführung der Datensätze (INKAR und KVB) erfolgte skriptbasiert mittels der Programmiersprache Python. Als Entwicklungsumgebung (IDE) kam Positron zum Einsatz. Dies ermöglichte die transparente Zusammenführung der Daten über den Amtlichen Gemeindeschlüssel (AGS).
+- Datenaufbereitung & Merging: Die Harmonisierung und Zusammenführung der Datensätze (INKAR und KBV) erfolgte skriptbasiert mittels der Programmiersprache Python. Als Entwicklungsumgebung (IDE) kam Positron zum Einsatz. Dies ermöglichte die transparente Zusammenführung der Daten über den Amtlichen Gemeindeschlüssel (AGS).
 
 - Visualisierung: Die Erstellung der Karten erfolgte in Datawrapper.
 
@@ -214,6 +214,7 @@ Die Analyse zeigt, dass der Versorgungsgrad als alleinige Steuerungsgröße nich
 Die Visualisierungen legen nahe, dass ergänzende Indikatoren, insbesondere Wartezeiten, notwendig sind, um die Versorgung realitätsnäher zu beurteilen. Für zukünftige Planungsmodelle könnte die Integration solcher Zugangsindikatoren einen wichtigen Beitrag leisten.
 
 Zukünftige Arbeiten könnten zudem untersuchen, inwiefern weitere Indikatoren wie Therapiedauer, Abbruchquoten oder regionale Erreichbarkeit die Bewertung der Versorgung weiter differenzieren.
+
 
 
 
