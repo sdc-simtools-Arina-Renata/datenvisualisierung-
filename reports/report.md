@@ -60,7 +60,7 @@ Die Daten lagen im CSV-Format vor und beziehen sich auf die Verwaltungsebene der
 
 ---
 
-### 3.4 Wartezeiten- und Versorgungsdaten (KBV)
+### 3.3 Wartezeiten- und Versorgungsdaten (KBV)
 Die versorgungsrelevanten Daten wurden aus den Veröffentlichungen und Statistiken der Kassenärztlichen Bundesvereinigung (KBV) bezogen. Dieser Datensatz ist zentral für die Untersuchung, da er die offizielle administrative Sicht der Realität des Versorgungsalltags gegenüberstellt.
 Zentrale Komponenten des Datensatzes:
 
@@ -70,7 +70,7 @@ Zentrale Komponenten des Datensatzes:
 
 ---
 
-### 3.5 Zeitliche Einordnung und Belastbarkeit der Daten
+### 3.4 Zeitliche Einordnung und Belastbarkeit der Daten
 Bei der Zusammenführung der Datensätze ergeben sich unterschiedliche Zeitstände (2021 bis 2025). Diese methodische Entscheidung wurde bewusst getroffen und lässt sich wie folgt begründen:
 
 - Versorgungsgrad (2025): Hier wurden die aktuellsten verfügbaren Daten der KBV verwendet. Da diese Kennzahl die rechtliche Grundlage für die Bedarfsplanung bildet, ist ihre Aktualität entscheidend für die Analyse der gegenwärtigen Systemlogik.
@@ -214,6 +214,7 @@ Die Analyse zeigt, dass der Versorgungsgrad als alleinige Steuerungsgröße nich
 Die Visualisierungen legen nahe, dass ergänzende Indikatoren, insbesondere Wartezeiten, notwendig sind, um die Versorgung realitätsnäher zu beurteilen. Für zukünftige Planungsmodelle könnte die Integration solcher Zugangsindikatoren einen wichtigen Beitrag leisten.
 
 Zukünftige Arbeiten könnten zudem untersuchen, inwiefern weitere Indikatoren wie Therapiedauer, Abbruchquoten oder regionale Erreichbarkeit die Bewertung der Versorgung weiter differenzieren.
+
 
 
 
