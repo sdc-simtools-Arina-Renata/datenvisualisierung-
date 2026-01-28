@@ -90,9 +90,10 @@ Die zeitliche Diskrepanz zwischen 2021 und 2025 führt nicht zu einer Verzerrung
 Die Bevölkerungsdaten stammen aus dem INKAR-Datensatz (Indikatoren und Karten zur Raum- und Stadtentwicklung). Sie enthalten Angaben zur Einwohnerzahl und zur Fläche auf Kreisebene. Diese Daten werden genutzt, um die Bevölkerungsdichte zu berechnen, die als Annäherung an die räumliche Nachfrage nach psychotherapeutischer Versorgung dient.
 
 Relevante Merkmale:
-	•	Verwaltungsebene: Landkreise und kreisfreie Städte
-	•	Format: CSV
-	•	Variablen: Einwohnerzahl, Fläche in Quadratkilometern, Kreisschlüssel (AGS)
+
+- Verwaltungsebene: Landkreise und kreisfreie Städte
+- Format: CSV
+- Variablen: Einwohnerzahl, Fläche in Quadratkilometern, Kreisschlüssel (AGS)
 
 ---
 
@@ -100,9 +101,11 @@ Relevante Merkmale:
 Der Versorgungsgrad ist eine offizielle Kennzahl der Kassenärztlichen Vereinigung Bayern (KVB). Er beschreibt das Verhältnis zwischen vorhandenen Kassensitzen und dem rechnerisch ermittelten Bedarf. Die Berechnungslogik basiert auf bundesweit einheitlichen Richtwerten der Bedarfsplanung.
 
 Die Klassifizierung erfolgt nach festgelegten Schwellenwerten:
-	•	unter 90 %: Unterversorgung
-	•	90–110 %: Regelversorgung
-	•	über 110 %: Überversorgung
+
+- unter 90 %: Unterversorgung
+- 90–110 %: Regelversorgung
+- über 110 %: Überversorgung
+
 Diese Kennzahl bildet die Grundlage für politische und administrative Entscheidungen zur Zulassung neuer Praxen.
 
 ---
@@ -211,6 +214,7 @@ Die Analyse zeigt, dass der Versorgungsgrad als alleinige Steuerungsgröße nich
 Die Visualisierungen legen nahe, dass ergänzende Indikatoren, insbesondere Wartezeiten, notwendig sind, um die Versorgung realitätsnäher zu beurteilen. Für zukünftige Planungsmodelle könnte die Integration solcher Zugangsindikatoren einen wichtigen Beitrag leisten.
 
 Zukünftige Arbeiten könnten zudem untersuchen, inwiefern weitere Indikatoren wie Therapiedauer, Abbruchquoten oder regionale Erreichbarkeit die Bewertung der Versorgung weiter differenzieren.
+
 
 
 
