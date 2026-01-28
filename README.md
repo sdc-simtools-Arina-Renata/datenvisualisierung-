@@ -33,10 +33,10 @@ Die Analyse basiert auf der Zusammenführung und Harmonisierung von drei zentral
 Datenquelle ist der INKAR-Datensatz des Bundesinstituts für Bau-, Stadt- und Raumforschung. Verwendet wurden Einwohnerzahl, Fläche und der Amtliche Gemeindeschlüssel (AGS).
 
 2. **Versorgungsgrad (System-Perspektive):**
-Diese offizielle Kennzahl der Kassenärztlichen Vereinigung Bayern (KVB) beschreibt das Verhältnis von Kassensitzen zum rechnerischen Bedarf. Werte über 110 Prozent gelten als Überversorgung.
+Diese offizielle Kennzahl der Kassenärztlichen Bundesvereinigung (KBV) beschreibt das Verhältnis von Kassensitzen zum rechnerischen Bedarf. Werte über 110 Prozent gelten als Überversorgung.
 
 3. **Wartezeiten (Realitäts-Indikator):**
-Konsolidierte Daten der KVB und ergänzende Recherchen bilden die Grundlage. Als statistischer Wert wurde der Median der Wartezeit in Tagen auf Kreisebene gewählt.
+Konsolidierte Daten der KBV und ergänzende Recherchen bilden die Grundlage. Als statistischer Wert wurde der Median der Wartezeit in Tagen auf Kreisebene gewählt.
 
 ---
 
