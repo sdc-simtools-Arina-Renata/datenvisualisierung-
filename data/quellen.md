@@ -1,5 +1,7 @@
 # Quellenverzeichnis
 
+* **Bundesamt für Kartographie und Geodäsie (BKG) (o. J.):** Geodaten und Kartenanwendungen. [Link zur Website](https://www.bkg.bund.de/DE/Home/home.html)
+* **Bundesinstitut für Bau-, Stadt- und Raumforschung (BBSR) (o. J.):** INKAR – Indikatoren und Karten zur Raum- und Stadtentwicklung. [Link zur Website](https://www.inkar.de/)
 * **Bundespsychotherapeutenkammer (2011):** Wartezeiten in der Psychotherapie – Langfassung der Studie. [Link zum PDF](https://api.bptk.de/uploads/20110622_BPtK_Studie_Langfassung_Wartezeiten_in_der_Psychotherapie_467e956db1.pdf)
 * **Bundespsychotherapeutenkammer (2018):** Wartezeiten in der ambulanten psychotherapeutischen Versorgung. [Link zum PDF](https://api.bptk.de/uploads/20180411_bptk_studie_wartezeiten_2018_c0ab16b390.pdf)
 * **Bundespsychotherapeutenkammer (2022):** Wartezeitenstudie zur psychotherapeutischen Versorgung in der GKV. [Link zum PDF](https://api.bptk.de/uploads/20221209_pm_Wartezeitenstudie_GKV_SV_9e58f8e502.pdf)
@@ -16,7 +18,8 @@
 * **Deutsches Kollegium für Psychosomatische Medizin (2024):** Psychotherapeutische Versorgung in Deutschland ist besser als vermutet. [Link zum Artikel](https://dkpm.de/en/2024/02/29/psychotherapeutische-versorgung-in-deutschland-ist-besser-als-vermutet/)
 * **Deutsches Kollegium für Psychosomatische Medizin (2024):** Pressemitteilung zum Psych-Kongress: Wartezeiten 2024. [Link zum PDF](https://dkpm.de/wp-content/uploads/2024/05/2024-02-29_PM_Psych-Kongress_Wartezeit_2024.pdf)
 * **Gemeinsamer Bundesausschuss (o. J.):** Psychotherapie-Richtlinie. [Link zur Richtlinie](https://www.g-ba.de/richtlinien/4/)
-* **Kassenärztliche Bundesvereinigung (o. J.):** Themen-Portal Psychotherapie. [Link zur Website](https://www.kbv.de/psychotherapie)
+* **Kassenärztliche Bundesvereinigung (KBV) (o. J.):** Themen-Portal Psychotherapie. [Link zur Website](https://www.kbv.de/psychotherapie)
 * **Psychotherapeutenkammer Berlin (o. J.):** Studie zur ambulanten psychotherapeutischen Versorgung veröffentlicht. [Link zum Artikel](https://www.psychotherapeutenkammer-berlin.de/nachrichten/studie-zur-ambulanten-psychotherapeutischen-versorgung-veroeffentlicht)
 * **Zenodo (2023):** Datensatz zur psychotherapeutischen Versorgung. [Link zum Datensatz](https://zenodo.org/records/7599322)
+
 
