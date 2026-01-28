@@ -1,4 +1,4 @@
-# Überversorgung auf dem Papier – Mangel in der Realität
+# Überversorgung auf dem Papier – eingeschränkter Zugang in der Realität
 ## Eine datenbasierte Analyse der psychotherapeutischen Versorgung in Nordbayern
 
 Dieses Projekt untersucht die Diskrepanz zwischen offiziellen Versorgungskennzahlen und dem tatsächlichen Zugang zu psychotherapeutischer Behandlung. Während administrative Daten oft eine Überversorgung suggerieren, zeigen reale Wartezeiten ein gänzlich anderes Bild.
