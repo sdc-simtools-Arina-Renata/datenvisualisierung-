@@ -1,70 +1,70 @@
-# Überversorgung vs. Mangel in der Realität  
+# Überversorgung auf dem Papier – Mangel in der Realität
 ## Eine datenbasierte Analyse der psychotherapeutischen Versorgung in Nordbayern
 
-Dieses Repository dokumentiert eine reproduzierbare Datenpipeline (Rohdaten → Aufbereitung → Kartenvisualisierungen), die den Widerspruch zwischen **offiziell ausgewiesenem Versorgungsgrad** (Bedarfsplanung) und **realem Zugang** (Wartezeiten) in der psychotherapeutischen Versorgung für **Nordbayern** sichtbar macht.
+Dieses Projekt untersucht die Diskrepanz zwischen offiziellen Versorgungskennzahlen und dem tatsächlichen Zugang zu psychotherapeutischer Behandlung. Während administrative Daten oft eine Überversorgung suggerieren, zeigen reale Wartezeiten ein gänzlich anderes Bild.
 
-**Kernaussage:** Regionen können laut Versorgungsgrad „überversorgt“ erscheinen, während Patient:innen dort dennoch lange auf Therapieplätze warten.
+---
 
--------------------------------------------------------------------------------------------------
+## Übersicht
+Das Ziel dieser Arbeit ist es, den Widerspruch zwischen dem offiziellen Versorgungsgrad und den realen Wartezeiten für Patientinnen und Patienten in Nordbayern räumlich sichtbar zu machen. Die Analyse konzentriert sich auf die Regierungsbezirke Ober-, Mittel- und Unterfranken sowie die Oberpfalz.
 
-## Projektfrage
+* **Forschungsfrage:** Wie unterscheiden sich offizielle Kennzahlen von realen Zugangsindikatoren?
+* **Untersuchungsraum:** Nordbayern auf Kreisebene (Landkreise und kreisfreie Städte).
 
-**Wie unterscheiden sich offizielle Versorgungskennzahlen (Versorgungsgrad) von realen Zugangsindikatoren (Wartezeiten), und wie lassen sich diese Unterschiede datenbasiert und räumlich visualisieren?**
+---
 
-------------------------------------------------------------------------------------------------
+## Repositorystruktur
 
-## Datenquellen (Input)
+Das Repository ist wie folgt strukturiert:
 
-- **INKAR** (BBSR) – Bevölkerungs- und Flächendaten auf Kreisebene  
-  → wird genutzt zur Berechnung der **Bevölkerungsdichte** (Einwohner/km²) als Nachfrage-Proxy.
-- **KVB (Kassenärztliche Vereinigung Bayerns)** – **Versorgungsgrad Psychotherapie (%)**  
-  → offizielle Kennzahl der Bedarfsplanung inkl. Schwellenwerten (<90 / 90–110 / >110).
-- **KVB + ergänzende Recherche** – **Wartezeiten** (Tage)  
-  → Realitätsindikator für tatsächlichen Zugang zur psychotherapeutischen Versorgung.
+* **data/**: Enthält alle verwendeten Rohdaten und die finalen bereinigten Datensätze sowie die entsprechenden Quellnachweise.
+* **figures/**: Beinhaltet die aus den Daten generierten Visualisierungen.
+* **notebooks/**: Enthält die Python-Notebooks, die für die Datenaufbereitung, das Merging und die Voranalyse genutzt wurden.
+* **reports/**: Dokumentiert den gesamten Analyseprozess, von der methodischen Herleitung bis hin zu den Endergebnissen.
+* **tests/**
+* **README.md**
 
+---
 
-------------------------------------------------------------------------------------------------
+## Methodik und Datengrundlage
+Die Analyse basiert auf der Zusammenführung und Harmonisierung von drei zentralen Datensäulen:
 
-## Untersuchungsraum & räumliche Ebene
+1. **Bevölkerungsdichte (Nachfrage-Indikator):**
+Datenquelle ist der INKAR-Datensatz des Bundesinstituts für Bau-, Stadt- und Raumforschung. Verwendet wurden Einwohnerzahl, Fläche und der Amtliche Gemeindeschlüssel (AGS).
 
-- **Nordbayern** (Oberfranken, Mittelfranken, Unterfranken, Oberpfalz)
-- **Räumliche Ebene:** Landkreise und kreisfreie Städte  
-- **Join-Key:** Kreisschlüssel / AGS (amtlicher Gemeindeschlüssel)
+2. **Versorgungsgrad (System-Perspektive):**
+Diese offizielle Kennzahl der Kassenärztlichen Vereinigung Bayern (KVB) beschreibt das Verhältnis von Kassensitzen zum rechnerischen Bedarf. Werte über 110 Prozent gelten als Überversorgung.
 
-------------------------------------------------------------------------------------------------
+3. **Wartezeiten (Realitäts-Indikator):**
+Konsolidierte Daten der KVB und ergänzende Recherchen bilden die Grundlage. Als statistischer Wert wurde der Median der Wartezeit in Tagen auf Kreisebene gewählt.
 
-## Methodischer Workflow
+---
 
-1. **Rohdaten importieren** (INKAR, KVB Versorgungsgrad, Wartezeiten)
-2. **Harmonisierung** auf Kreisebene & Join über **AGS**
-3. **Berechnung Bevölkerungsdichte**  
-   `Bevölkerungsdichte = Einwohnerzahl / Fläche_km²`
-4. **Klassifizierung für Karten**
-   - Bevölkerungsdichte: quantilbasiert
-   - Versorgungsgrad: KVB-Schwellen (<90 / 90–110 / >110)
-   - Wartezeiten: Klassen in Tagen (Median) (z. B. <30, 30–60, 60–100, >100)
-5. **Erstellung von Choroplethen-Karten** mit identischer Geometrie
-6. **Vergleich** der Karten als Story-Sequenz:
-   - Setup (Nachfrage): Bevölkerungsdichte
-   - Illusion (Systemsicht): Versorgungsgrad
-   - Twist (Realität): Wartezeiten
+## Visualisierungskonzept
+Das Projekt nutzt gezielte visuelle Brüche, um die inhaltliche Diskrepanz zwischen den Datensätzen zu verdeutlichen.
 
-------------------------------------------------------------------------------------------------
+**Visualisierung 1: Bevölkerungsdichte**
+Die Darstellung erfolgt als Choroplethenkarte mit einer Gelb-Roten Farbskala. Sie dient zur Identifikation von Verdichtungsräumen und stellt die neutrale Perspektive der Nachfrage dar.
 
-## Ergebnisse / Visualisierungen
+**Visualisierung 2: Versorgungsgrad**
+Die Wahl einer monochromen Skala in Medical Blue spiegelt die administrative Sicht wider. Die kühle Farbe suggeriert Stabilität und Ordnung innerhalb der System-Logik.
 
-- **Karte 1:** Bevölkerungsdichte – „Wo sind die Menschen?“ (Gelb/Rot)
-- **Karte 2:** Versorgungsgrad – „Die offizielle Bewertung“ (Blau)
-- **Karte 3:** Wartezeiten – „Die Realität des Zugangs“ (Orange/Dunkelrot)
+**Visualisierung 3: Wartezeiten**
+Hier wird eine aggressive Farbskala von Warn-Orange bis zu tiefem Bordeaux verwendet. Das visuell unruhiges Kartenbild macht die emotionale Belastung und die Willkür des Systemzugangs für Betroffene spürbar.
 
-Besonders relevant sind Regionen, die in der Versorgungsgradkarte „blau“ (Überversorgung) erscheinen, aber in der Wartezeitkarte „rot“ (lange Wartezeiten).
+---
 
-------------------------------------------------------------------------------------------------
+## Technische Umsetzung
 
-## Repository-Struktur 
-data/
-figures/
-notebooks/
-README.md
+* **Datenverarbeitung:** Die Harmonisierung erfolgte skriptbasiert mittels Python in der Entwicklungsumgebung Positron.
+* **Zusammenführung:** Die Datensätze wurden über einen Merge-Prozess basierend auf dem Amtlichen Gemeindeschlüssel (AGS) verknüpft.
+* **Kartografie:** Die Erstellung der Karten erfolgte über Datawrapper unter Nutzung der digitalen Geometriedaten VG250 des BKG.
+
+---
+
+## Zentrale Ergebnisse
+Die Analyse belegt einen systematischen Widerspruch: In den urbanen Zentren trifft eine hohe Bevölkerungsdichte auf eine offiziell ausgewiesene Überversorgung. Gleichzeitig erreichen jedoch die realen Wartezeiten in genau diesen Regionen kritische Werte. Das Fazit der Untersuchung unterstreicht, dass der Versorgungsgrad als alleinige Steuerungsgröße unzureichend ist und durch Zugangsindikatoren wie Wartezeiten ergänzt werden muss.
+
+---
 
 Generative KI wurde unterstützend bei der Strukturierung der Analyse, der Textformulierung sowie bei der Entwicklung von Code-Skeletten eingesetzt. Alle Ergebnisse wurden von Arina Rukina und Renata Figueroa überprüft und eigenständig interpretiert.
